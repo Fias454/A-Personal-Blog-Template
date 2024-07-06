@@ -2,514 +2,240 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: whitesmoke;
 }
-#Title{
+#FirstName{
+    text-align: center;
+    font-size: 25px;
+}
+#SecondName{
     text-align: center;
 }
-#TitleAbove{
-    margin-top: 3%;
-    font-size: 35px;
+#BodyPart1{
+    display: flex;
+    flex-wrap: wrap;
 }
 #FirstBlog{
-    display: inline-table;
-    width: 800px;
-    height: 700px;
-    margin-top: 1%;
-    background-color: white;
-    box-shadow: 3px 3px 3px rgb(230, 214, 214);
+    width: 850px;
+    height: 800px;
+    box-shadow: 5px 5px 5px lightgray;
+    transition: box-shadow 0.2s ease-in-out;
 }
-#ImgForFirstBlog{
+#FirstBlog:hover{
+    box-shadow: 10px 10px 10px lightgray;
+}
+#FirstImgForFirstBlog{
     width: 100%;
-    height: 350px;
 }
-#Dis1ForFirstBlog{
-    font-size: 30px;
+#NameOFblog{
+    font-size: 25px;
     margin-left: 2%;
 }
-#MoreDisForFirstBlog{
-    margin-left: 2%;
-}
-#EvenMoreDisForFirstBlog{
-    margin-left: 2%;
-}
-#ReadMore{
-    color: white;
-    height: 50px;
-    font-size: 20px;
-    border: none;
-    background-color: rgb(14, 13, 13);
-    padding: 5px;
+#NameOFblogDis{
+    font-size: 19px;
     margin-left: 2%;
     display: inline;
+}    
+#FirstBlogDescription{
+    margin-left: 2%;
 }
-#ReadMore:hover{
-    border: none;
-    background-color: gray;
+#NameOFblogDate{
+   display: inline;
 }
-#CommentSection{
-    display: inline;
-}
-#NumberOfcomments{
-    display: inline;
-}
-#comments{
-    display: inline;
-    margin-left: 500px;
-}
-#ThirdBlog{
-    display: inline-block;
+#WWBlog{
+    margin-left: 2%;
 }
 #SecondBlog{
-    display: inline-table;
-    width: 500px;
-    height: fit-content;
-    box-shadow: 3px 3px 3px rgb(230, 214, 214);
-    margin-left: 2%;
-    margin-top: unset;
-    background-color: white;
+    width: 400px;
+    height: 450px;
+    box-shadow: 5px 5px 5px lightgray;
+    transition: box-shadow 0.2s ease-in-out;
+    margin-left: 5%;
 }
-#PicforSecondBlog{
+#SecondBlog:hover{
+    box-shadow: 10px 10px 10px lightgray;
+}
+#SecondImgForSecondBlog{
     width: 100%;
 }
-#DisSecondPic{
+#SecondBlogDis{
     margin-left: 2%;
 }
-#EvenMoreDis{
-    margin-left: 2%;
+#Thirdblog{
+    cursor: default;
 }
-#LisF{    
-    display: inline-block;
-    margin-left: 62%;
-}
-#first{
-    display: inline-block;
-    width: 490px;
+#MorePosts{
+    margin-top: 5%;
+    margin-left: 6%;
+    background-color: lightgray;
+    color: black;
+    width: 400px;
     height: 50px;
-    background-color: gray;
 }
-#PopularBlogs{
-    margin-top: 3%;
-    color: white;
-    margin-left: 7%;
+#NameOFMorePosts{
+    margin-left: 3%;
+    margin-top: 4%;
+    display: inline-block;
 }
-#ImG{
-    display: inline;
+#PostOneImg{
     width: 50px;
     height: 50px;
+    margin-top: 1.25%;
+    margin-left: 2%;
 }
-#IMGDIs{
-    display: inline;
+#PostoneDis{
+    display: flex;
 }
-#Foot{
-    margin-top: 5%;
-    width: 100%;
-    height: 75px;
-    background-color: gray;
-}
-#prev{
+#UnotextPost1{
+    display: inline-block;
+    color: black;
     margin-top: 2%;
-    margin-left: 5%;
-    border: none;
-    background-color: black;
+    margin-left: 106%;
+}
+#UnotextPost2{
+    margin-left: 1%;
+    margin-top: 9%;
+    float: left;
+    color: black;
+}
+#PostOne{
+    display: flex;
+    margin-left: 6%;
+    background-color: white;
     color: white;
-    width: 85px;
-    height: 35px;
-    font-size: 20px;
+    width: 400px;
+    height: 60px;
 }
-#nex{
-    margin-top: 2%;
-    margin-left: 5%;
-    border: none;
-    background-color: black;
+#PostOne:hover{
+    background-color: lightgray;
+}
+#PostTwo{
+    display: flex;
+    margin-left: 6%;
+    background-color: white;
     color: white;
-    width: 85px;
-    height: 35px;
-    font-size: 20px;
-}
-#nex:hover{
-    background-color: rgb(34, 32, 32);
-    color: whitesmoke;
-}
-#prev:hover{
-    background-color: rgb(34, 32, 32);
-    color: whitesmoke;
-}
-@media (min-width: 200px) and (max-width: 300px){
-#Title{
-    text-align: center;
-}
-#TitleAbove{
-    margin-top: 3%;
-    font-size: 35px;
-}
-#FirstBlog{
-    display: block;
-    width: 100%;
-    height: fit-content;
+    width: 400px;
+    height: 60px;
     margin-top: 1%;
+}
+#PostTwo:hover{
+    background-color: lightgray;
+}
+#PostThree{
+    display: flex;
+    margin-left: 6%;
     background-color: white;
-    box-shadow: 3px 3px 3px rgb(230, 214, 214);
-}
-#ImgForFirstBlog{
-    max-width: 100%;
-    height: 100px;
-}
-#Dis1ForFirstBlog{
-    font-size: 30px;
-    margin-left: 2%;
-}
-#MoreDisForFirstBlog{
-    margin-left: 2%;
-}
-#EvenMoreDisForFirstBlog{
-    margin-left: 2%;
-}
-#ReadMore{
     color: white;
-    height: 50px;
-    font-size: 20px;
-    border: none;
-    background-color: rgb(14, 13, 13);
-    padding: 5px;
-    margin-left: 2%;
-    display: inline;
+    width: 400px;
+    height: 60px;
+    margin-top: 1%;
 }
-#ReadMore:hover{
-    border: none;
-    background-color: gray;
-}
-#CommentSection{
-    display: block;
-}
-#comments{
-    display: none;
-}
-#NumberOfcomments{
-    display: none;
-}
-#SecondBlog{
-    display: block;
-    width: 100%;
-    margin-top: 2%;
-    height: fit-content;
-    box-shadow: 3px 3px 3px rgb(230, 214, 214);
-    margin-top: unset;
-    background-color: white;
-}
-#PicforSecondBlog{
-    max-width: 100%;
-    height: 100px;
-}
-#DisSecondPic{
-    margin-left: 2%;
-}
-#EvenMoreDis{
-    margin-left: 2%;
+#PostThree:hover{
+    background-color: lightgray;
 }
 #ThirdBlog{
-    display: block;
+    width: 850px;
+    height: 800px;
+    box-shadow: 5px 5px 5px lightgray;
+    transition: box-shadow 0.2s ease-in-out;
+    margin-top: 2%;
+}
+#ThirdBlog:hover{
+    box-shadow: 10px 10px 10px lightgray;
+}
+#FootNotEl{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    margin-top: 3%;
+}
+#Prev{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: none;
+}
+#FirstImgForFirstBlog{
     width: 100%;
 }
-#FirstInBlogs{
-    width: 100%;
+#Prev:hover{
+    background-color: lightgray;
+    color: black;
 }
-#SecondInblogs{
-    width: 100%;
+#Next{
+    width: 90px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    margin-left: 1%;
+    margin-top: 2%;
+    border: none;
 }
-#ThirdInblogs{
-    width: 100%;
+#Next:hover{
+    background-color: lightgray;
+    color: black;
 }
-#ForthInblogs{
-    width: 100%;
-}
-#LisF{    
-    display: block;
-    margin-left: unset;
-    width: 100%;
-}
-#first{
-    width: 100%;
-}
-#BlogOne{
-    width: 100%;
-}
-}
-@media (min-width: 300px) and (max-width: 400px){
-    #Title{
-        text-align: center;
-    }
-    #TitleAbove{
-        margin-top: 3%;
-        font-size: 35px;
+@media (min-width:200px) and (max-width:400px) {
+    #BodyPart1{
+        display: block;
     }
     #FirstBlog{
-        display: inline-block;
         width: 100%;
-        height: fit-content;
-        margin-top: 1%;
-        background-color: white;
-        box-shadow: 3px 3px 3px rgb(230, 214, 214);
+        height: 800px;
+        box-shadow: 5px 5px 5px lightgray;
+        transition: box-shadow 0.2s ease-in-out;
     }
-    #ImgForFirstBlog{
-        max-width: 100%;
-        height: 100px;
-    }
-    #Dis1ForFirstBlog{
-        font-size: 30px;
-        margin-left: 2%;
-    }
-    #MoreDisForFirstBlog{
-        margin-left: 2%;
-    }
-    #EvenMoreDisForFirstBlog{
-        margin-left: 2%;
-    }
-    #ReadMore{
-        color: white;
-        height: 50px;
-        font-size: 20px;
-        border: none;
-        background-color: rgb(14, 13, 13);
-        padding: 5px;
-        margin-left: 2%;
-        display: inline;
-    }
-    #ReadMore:hover{
-        border: none;
-        background-color: gray;
-    }
-    #CommentSection{
-        display: block;
-    }
-    #comments{
-        display: inline;
-        margin-left: unset;
-    }
-    #NumberOfcomments{
-        display: inline;
-    }
-    #ThirdBlog{
-        display: block;
-        width: 100%;
-    }
-    #FirstInBlogs{
-        width: 100%;
-    }
-    #SecondInblogs{
-        width: 100%;
-    }
-    #ThirdInblogs{
-        width: 100%;
-    }
-    #ForthInblogs{
-        width: 100%;
-    }
-    #LisF{    
-        display: block;
-        margin-left: unset;
-        width: 100%;
-    }
-    #first{
-        width: 100%;
-    }
-    #BlogOne{
-        width: 100%;
-    }
-}
-@media (min-width: 400px) and (max-width: 1118px){
-    #Title{
-        text-align: center;
-    }
-    #TitleAbove{
-        margin-top: 3%;
-        font-size: 35px;
-    }
-    #FirstBlog{
-        display: inline-block;
-        width: 100%;
-        height: fit-content;
-        margin-top: 1%;
-        background-color: white;
-        box-shadow: 3px 3px 3px rgb(230, 214, 214);
-    }
-    #ImgForFirstBlog{
-        max-width: 100%;
-        height: 300px;
-    }
-    #Dis1ForFirstBlog{
-        font-size: 30px;
-        margin-left: 2%;
-    }
-    #MoreDisForFirstBlog{
-        margin-left: 2%;
-    }
-    #EvenMoreDisForFirstBlog{
-        margin-left: 2%;
-    }
-    #ReadMore{
-        color: white;
-        height: 50px;
-        font-size: 20px;
-        border: none;
-        background-color: rgb(14, 13, 13);
-        padding: 5px;
-        margin-left: 2%;
-        display: inline;
-    }
-    #ReadMore:hover{
-        border: none;
-        background-color: gray;
-    }
-    #CommentSection{
-        display: block;
-    }
-    #comments{
-        display: inline;
-        margin-left: unset;
-    }
-    #NumberOfcomments{
-        display: inline;
-    }
-    #ThirdBlog{
-        display: block;
-        width: 100%;
-    }
-    #FirstInBlogs{
-        width: 100%;
-    }
-    #SecondInblogs{
-        width: 100%;
-    }
-    #ThirdInblogs{
-        width: 100%;
-    }
-    #ForthInblogs{
-        width: 100%;
-    }
-    #LisF{    
-        display: block;
-        margin-left: unset;
-        width: 100%;
-    }
-    #first{
-        width: 100%;
-    }
-    #BlogOne{
-        width: 100%;
-    }
-}
-@media (min-width: 1118px) and (max-width: 1142px){
-    #FirstBlog{
-        display: inline-table;
-        width: 500px;
-        height: 700px;
-        margin-top: 1%;
-        background-color: white;
-        box-shadow: 3px 3px 3px rgb(230, 214, 214);
-    }
-}
-@media (min-width: 1118px) and (max-width: 1245px){
-}
-@media (min-width: 1245px) and (max-width: 1330px){
-    #Title{
-        text-align: center;
-    }
-    #TitleAbove{
-        margin-top: 3%;
-        font-size: 35px;
-    }
-    #FirstBlog{
-        display: inline-table;
-        width: 700px;
-        height: 700px;
-        margin-top: 1%;
-        background-color: white;
-        box-shadow: 3px 3px 3px rgb(230, 214, 214);
-    }
-    #ImgForFirstBlog{
-        width: 100%;
-        height: 350px;
-    }
-    #Dis1ForFirstBlog{
-        font-size: 30px;
-        margin-left: 2%;
-    }
-    #MoreDisForFirstBlog{
-        margin-left: 2%;
-    }
-    #EvenMoreDisForFirstBlog{
-        margin-left: 2%;
-    }
-    #ReadMore{
-        color: white;
-        height: 50px;
-        font-size: 20px;
-        border: none;
-        background-color: rgb(14, 13, 13);
-        padding: 5px;
-        margin-left: 2%;
-        display: inline;
-    }
-    #ReadMore:hover{
-        border: none;
-        background-color: gray;
-    }
-    #CommentSection{
-        display: inline;
-    }
-    #NumberOfcomments{
-        display: inline;
+    #FirstImgForFirstBlog{
+       width: 100%;
     }
     #SecondBlog{
-        display: inline-table;
+        display: block;
+        width: 100%;
+        height: 450px;
+        box-shadow: 5px 5px 5px lightgray;
+        transition: box-shadow 0.2s ease-in-out;
         margin-left: unset;
     }
-    #comments{
-        display: inline;
-        margin-left: 500px;
-    }
-    #ThirdBlog{
-        display: inline-block;
-    }
-    #SecondBlog{
-        display: inline-table;
-        width: 500px;
-        height: fit-content;
-        box-shadow: 3px 3px 3px rgb(230, 214, 214);
-        margin-left: 2%;
-        margin-top: unset;
-        background-color: white;
-    }
-    #PicforSecondBlog{
+    #SecondImgForSecondBlog{
         width: 100%;
     }
-    #DisSecondPic{
-        margin-left: 2%;
+    #Thirdblog{
+        margin-left: unset;
+        display: block;
+        cursor: default;
     }
-    #EvenMoreDis{
-        margin-left: 2%;
+    #MorePosts{
+        margin-left: unset;
     }
-    #LisF{    
-        display: inline-block;
-        margin-left: 62%;
+    #PostOne{
+        margin-left: unset;
+        width: 100%;
     }
-    #first{
-        display: inline-block;
-        width: 490px;
-        height: 50px;
-        background-color: gray;
+    #PostTwo{
+        margin-left: unset;
+        width: 100%;
     }
-    #PopularBlogs{
-        margin-top: 3%;
-        color: white;
-        margin-left: 7%;
+    #PostThree{
+        margin-left: unset;
+        width: 100%;
     }
-    #ImG{
-        display: inline;
-        width: 50px;
-        height: 50px;
-    }
-    #IMGDIs{
-        display: inline;
+    #ThirdBlog{
+        width: 100%;
+        height: 800px;
+        box-shadow: 5px 5px 5px lightgray;
+        transition: box-shadow 0.2s ease-in-out;
+        margin-top: 2%;
     }
 }
-
+@media (min-width:200px) and (max-width: 1200px){
+    #ThirdBlog{       
+         width: 100%;
+        height: 800px;
+        box-shadow: 5px 5px 5px lightgray;
+        transition: box-shadow 0.2s ease-in-out;
+        margin-top: 2%;
+    }
+}
